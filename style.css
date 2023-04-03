@@ -1,0 +1,320 @@
+@-webkit-keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}@keyframes text-focus-in{0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+@-webkit-keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}@keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}
+@-webkit-keyframes scale-up-hor-left{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:0 0;transform-origin:0 0}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:0 0;transform-origin:0 0}}@keyframes scale-up-hor-left{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:0 0;transform-origin:0 0}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:0 0;transform-origin:0 0}}
+@-webkit-keyframes scale-up-ver-bottom{0%{-webkit-transform:scaleY(.4);transform:scaleY(.4);-webkit-transform-origin:0 100%;transform-origin:0 100%}100%{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transform-origin:0 100%;transform-origin:0 100%}}@keyframes scale-up-ver-bottom{0%{-webkit-transform:scaleY(.4);transform:scaleY(.4);-webkit-transform-origin:0 100%;transform-origin:0 100%}100%{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transform-origin:0 100%;transform-origin:0 100%}}
+@-webkit-keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}@keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
+
+* {
+  font-family: 'Comfortaa', cursive;
+  margin: auto;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+
+
+
+.header {
+  animation-name: tracking-in-expand;
+  animation-duration: 2s;
+  
+}
+.menu-area li a {
+  text-decoration: none;
+}
+
+.menu-area li {
+  list-style-type: none;
+}
+
+.custom-padding{
+  padding-top: 25px;
+}
+
+nav {
+  position: relative;
+  width: calc(100%);
+  margin: 0 auto;
+  padding: 20px 0;
+  background: #293559;
+  z-index: 1;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.logo {
+  width: 100px;
+  float: left;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 18px;
+}
+
+.menu-area li {
+  display: inline-block;
+  
+}
+
+.menu-area a {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  padding: 0 25px;
+  font-size: 14px;
+  line-height: 30px;
+  position: relative;
+  z-index: 1;
+}
+.menu-area a:hover {
+  background: #ffffff;
+  color: #293559;
+}
+
+.menu-area a:hover:after {
+  transform: translateY(-50%) rotate(-35deg);
+}
+
+
+.body {
+  animation-name: text-focus-in;
+  animation-duration: 1.5s;
+  background-image: url('https://i.postimg.cc/SRhfpYWJ/pd.png');
+  -webkit-background-size:cover;
+  background-size:cover;
+  background-position: center;
+
+}
+
+
+.body .boxI{
+  border-radius: 10px 10px 10px 10px;
+  background-repeat: no-repeat;
+  background-image: url('https://wallpaperaccess.com/full/722541.jpg');
+  background-position: center;
+  margin: 5% 5% 5% 5%;
+  height: 400px;
+  width: auto;
+  opacity: 1;
+  
+}
+
+img {
+    width: 400px;
+}
+@media (max-width: 480px) {
+    img {
+        width: 100%;
+    }
+}
+
+.body .boxI .img{
+z-index: auto; 
+float: right;
+  text-transform: uppercase;
+margin: auto 150px auto auto;
+}
+
+
+.body .boxI .home .text {
+  color: #ffc700;
+  font-size: xx-large;
+  font-weight: 600;
+  font-variation-settings: "wght" 100;
+  padding: 10% ;
+  margin: auto auto auto auto;
+  
+}
+
+.main .boxS {
+  transition-duration: 1s;
+  animation-name: scale-up-hor-right;
+  animation-duration: 1s;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  height: 150px;
+  background-repeat: no-repeat;
+  width: auto;
+  background-position: right;
+  background-image : url('https://wallup.net/wp-content/uploads/2017/11/22/403393-computer-newspapers.jpg');
+  margin: 0% 0% 5% 50%;
+  text-align: center
+  
+}
+
+.main .boxS .text a{
+
+  color: #ffc700;
+   background-position: center;
+   position: center;
+   display: inline-block;
+     font-size: 40px;
+  font-weight: 400;
+  margin-top: 10px;
+  	filter: brightness(90%);
+   
+
+}
+
+.main .boxS:hover {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  height: 150px;
+  width: auto;
+  background-position: right;
+  margin: 0% 0% 5% 35%;
+}
+
+
+
+.main .boxSe {
+  transition-duration: 1s;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  height: 150px;
+  width: auto;
+  background-position: left;
+  background-image: url('https://cutewallpaper.org/22/desktop-web-development-wallpapers/3078220234.jpg');
+  margin: 5% 50% 5% 0%;
+  animation-name: scale-up-hor-left;
+  animation-duration: 1s;
+    text-align: center;
+	filter: brightness(90%);
+}
+.main .boxSe .text a{
+
+  color: #ffc700;
+   background-position: center;
+   position: center;
+   display: inline-block;
+     font-size: 40px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.main .boxSe:hover {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  height: 150px;
+  width: auto;
+  background-position: left;
+  background-color: #ffc700;
+  margin: 5% 35% 5% 0%;
+}
+
+.footer .boxC{
+  height: 250px;
+  width: auto;
+  background-position: center;
+  background-color: #293559;
+  position: relative;
+  text-align: center;
+  background-size: cover;
+  margin: 4% 0.5% 0.5% 0.5%;
+  border-radius: 15px 15px 0px 0px;
+ animation-name: scale-up-ver-bottom;
+ animation-duration: 1s;
+ text-decoration: none;
+list-style: none;
+
+}
+
+
+.footer .boxC .Connection{
+box-shadow: none;
+display: block;
+text-transform: uppercase;
+display: block;
+position: relative;
+padding: 20px;
+background-position: center;
+}
+
+
+.footer .boxC .Connection a{
+  text-decoration: none;
+  color: white; 
+ }
+
+
+
+.footer .boxC .Connection:hover {
+    background: #ffc700;
+     border-radius: 0px 0px 15px 15px ;
+    background-position: center;
+    margin: auto auto auto auto;
+    width: 200px;
+}
+
+
+
+.footer .boxC .Connection:hover a{
+
+  color: #293559;
+}
+
+.footer .boxC .TextC {
+
+color: #fff;
+
+}
+
+.boxC .Poli {
+
+  text-align: left;
+  background-position: left;
+  float: left;
+  color: #ffffff;
+ margin: 1% 0% 0% 3%;
+ text-decoration: none;
+}
+
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #293559c6;
+  color: #ffc700;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 70%;
+  max-height: 70%;
+  overflow: auto;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.popup-link {
+  color:  #ffc700;
+}
+
+
+.popup-content p{
+  color: #fff;
+}
