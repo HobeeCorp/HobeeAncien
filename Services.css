@@ -92,15 +92,42 @@ nav {
 
 }
 
-.body h2 {
-  background-image: url('http://www.stemmonsservices.com/wp-content/uploads/2018/02/5064735-hd-business-wallpaper-400x265.jpg');
-  padding: 20px;
+.body .boxI .Text {
+
+text-align: center;
+position: static;
+padding: 50px;
+color: #ffc700;
+
+}
+.body .boxI .textp {
+
+  color: #fff;
+  position: static;
+  padding: 50px;
   text-align: center;
 }
 
-.body h2 {
-  color: ;
-  font-family: Arial, sans-serif;
+
+.body .boxI .textj {
+
+  color: #fff;
+  position: static;
+  padding: 90px;
+  text-align: justify;
+  margin-left: 40px;
+}
+
+.body .boxI{
+  border-radius: 10px 10px 10px 10px;
+  background-repeat: no-repeat;
+  background-image: url('https://vsthemes.org/uploads/posts/2022-07/1657349569_08-gettyimages-539211954_resized.webp');
+  background-position: center;
+  margin: 5% 5% 5% 5%;
+  height: 700px;
+  width: auto;
+  opacity: 1;
+  
 }
 
 .footer .boxC{
@@ -118,4 +145,96 @@ nav {
  text-decoration: none;
 list-style: none;
 
+}
+
+
+.footer .boxC .Connection{
+  box-shadow: none;
+  display: block;
+  text-transform: uppercase;
+  display: block;
+  position: relative;
+  padding: 20px;
+  background-position: center;
+  }
+  
+  
+  .footer .boxC .Connection a{
+    text-decoration: none;
+    color: white; 
+   }
+  
+  
+  
+  .footer .boxC .Connection:hover {
+      background: #ffc700;
+       border-radius: 0px 0px 15px 15px ;
+      background-position: center;
+      margin: auto auto auto auto;
+      width: 200px;
+  }
+  
+  
+  
+  .footer .boxC .Connection:hover a{
+  
+    color: #293559;
+  }
+  
+  .footer .boxC .TextC {
+  
+  color: #fff;
+  
+  }
+
+.boxC .Poli {
+
+  text-align: left;
+  background-position: left;
+  float: left;
+  color: #ffffff;
+ margin: 1% 0% 0% 3%;
+ text-decoration: none;
+}
+
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #293559c6;
+  color: #ffc700;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 70%;
+  max-height: 70%;
+  overflow: auto;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.popup-link {
+  color:  #ffc700;
+}
+
+
+.popup-content p{
+  color: #fff;
 }
